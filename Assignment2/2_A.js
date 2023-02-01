@@ -19,6 +19,9 @@ const answer = window.prompt(questions [questionIndex].question);
 
 //Do not check the answer yet. Just fire an alert combining "You answered " and then the response and then add " The correct answer was " and then display the answer property from the object. Use concatenation to string all these strings together.
 
+
+//stuck on this
+
 if (answer === questions[questionIndex].answer) {
     window.alert("you win!");
 } 
