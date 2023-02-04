@@ -6,9 +6,10 @@ const questions = [
     {question: "How many lives does a cat have?", answer: "9"}
 ]
 //A random question prompt should appear when the page loads. 
+console.log(questions);
 
 //1. determine how long question set is
-const questionLength = questions.length;
+const questionsLength = questions.length;
 
 //2. choose a pseudo-random number
 const questionIndex = Math.floor(Math.random() * questionLength);
@@ -17,13 +18,3 @@ const questionIndex = Math.floor(Math.random() * questionLength);
 
 const answer = window.prompt(questions [questionIndex].question);
 
-//Do not check the answer yet. Just fire an alert combining "You answered " and then the response and then add " The correct answer was " and then display the answer property from the object. Use concatenation to string all these strings together.
-
-
-//stuck on this
-
-if (answer === questions[questionIndex].answer) {
-    window.alert("you win!");
-} 
-else { "You answered " + answer + ". The correct answer was " + questions[questionIndex].answer;
-}
