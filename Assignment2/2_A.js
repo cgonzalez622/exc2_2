@@ -16,6 +16,3 @@ const questionIndex = Math.floor(Math.random() * questionsLength);
 const answer = window.prompt(questions[questionIndex].question);
 //3. Display question with window.prompt
 window.alert("You answered " + answer + ". The correct answer was " + quiz[questionIndex].answer);
-
-
-
